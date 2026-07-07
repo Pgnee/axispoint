@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patients — aXisPoint Radiology</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box}
+  body{margin:0;background:#FFFFFF}
+  a{transition:color .15s ease,background-color .15s ease,border-color .15s ease}
+  .nav-link:hover{color:#1D6FA5 !important}
+  .btn-primary:hover{background:#1D6FA5 !important}
+  .btn-secondary:hover{background:#F4F6F9 !important}
+  .footer-link:hover{color:#fff !important}
+  .card{transition:border-color .15s ease}
+  .card:hover{border-color:#3FA9DC}
+  .prep-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+  .expect-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media (max-width:900px){
+    header{padding-left:24px !important;padding-right:24px !important}
+    nav{display:none !important}
+    section{padding-left:24px !important;padding-right:24px !important}
+    .prep-grid,.expect-grid{grid-template-columns:1fr !important}
+  }
+</style>
+</head>
+<body>
+
+<header style="display:flex;align-items:center;justify-content:space-between;padding:20px 56px;background:#FFFFFF;border-bottom:1px solid #D3D8E0">
+<a href="axis1.html" style="display:flex;align-items:center;gap:14px;text-decoration:none">
+<svg width="52" height="52" viewBox="0 0 100 100" style="flex-shrink:0">
+<defs><linearGradient id="apxL" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#E8F5FE"></stop><stop offset="100%" stop-color="#3FA9DC"></stop></linearGradient><linearGradient id="apxD" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1D6FA5"></stop><stop offset="100%" stop-color="#0B1A30"></stop></linearGradient></defs>
+<polygon points="50,50 63.86,44.26 99.0,50.0" fill="url(#apxL)"></polygon>
+<polygon points="50,50 99.0,50.0 63.86,55.74" fill="url(#apxD)"></polygon>
+<polygon points="50,50 55.74,36.14 78.28,21.72" fill="url(#apxL)"></polygon>
+<polygon points="50,50 78.28,21.72 63.86,44.26" fill="url(#apxD)"></polygon>
+<polygon points="50,50 44.26,36.14 50.0,1.0" fill="url(#apxL)"></polygon>
+<polygon points="50,50 50.0,1.0 55.74,36.14" fill="url(#apxD)"></polygon>
+<polygon points="50,50 36.14,44.26 21.72,21.72" fill="url(#apxL)"></polygon>
+<polygon points="50,50 21.72,21.72 44.26,36.14" fill="url(#apxD)"></polygon>
+<polygon points="50,50 36.14,55.74 1.0,50.0" fill="url(#apxL)"></polygon>
+<polygon points="50,50 1.0,50.0 36.14,44.26" fill="url(#apxD)"></polygon>
+<polygon points="50,50 44.26,63.86 21.72,78.28" fill="url(#apxL)"></polygon>
+<polygon points="50,50 21.72,78.28 36.14,55.74" fill="url(#apxD)"></polygon>
+<polygon points="50,50 55.74,63.86 50.0,99.0" fill="url(#apxL)"></polygon>
+<polygon points="50,50 50.0,99.0 44.26,63.86" fill="url(#apxD)"></polygon>
+<polygon points="50,50 63.86,55.74 78.28,78.28" fill="url(#apxL)"></polygon>
+<polygon points="50,50 78.28,78.28 55.74,63.86" fill="url(#apxD)"></polygon>
+<circle cx="50" cy="50" r="6" fill="#132A4C"></circle><circle cx="50" cy="50" r="2.6" fill="#E8F5FE"></circle>
+</svg>
+<div style="display:flex;flex-direction:column;line-height:1.08">
+<div style="font-weight:800;font-size:27px;font-family:Archivo,sans-serif;color:#132A4C;letter-spacing:-0.01em"><span style="color:#1D6FA5">aXis</span>point</div>
+<div style="font-weight:600;font-size:11px;font-family:Archivo,sans-serif;letter-spacing:0.3em;color:#8B95A5">RADIOLOGY</div>
+</div>
+</a>
+<nav style="display:flex;align-items:center;gap:28px">
+<a href="axis1-about.html" class="nav-link" style="font:600 14px 'Public Sans',sans-serif;color:#132A4C;text-decoration:none">About</a>
+<a href="axis1-physicians.html" class="nav-link" style="font:600 14px 'Public Sans',sans-serif;color:#132A4C;text-decoration:none">Physicians</a>
+<a href="axis1-services.html" class="nav-link" style="font:600 14px 'Public Sans',sans-serif;color:#132A4C;text-decoration:none">Services</a>
+<a href="axis1-patients.html" class="nav-link" style="font:600 14px 'Public Sans',sans-serif;color:#1D6FA5;text-decoration:none">Patients</a>
+<a href="axis1-referring.html" class="nav-link" style="font:600 14px 'Public Sans',sans-serif;color:#132A4C;text-decoration:none">Referring Physicians</a>
+<a href="axis1-contact.html" class="btn-primary" style="font:700 14px 'Public Sans',sans-serif;color:#fff;background:#132A4C;padding:11px 22px;border-radius:6px;text-decoration:none">Contact</a>
+</nav>
+</header>
+
+<section style="padding:48px 56px;background:#F4F6F9">
+<div style="max-width:1200px;margin:0 auto">
+<div style="display:inline-block;white-space:nowrap;font:700 12px 'Public Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#1D6FA5;background:#FFFFFF;padding:7px 14px;border-radius:999px;margin-bottom:16px">For Patients</div>
+<h1 style="font-weight:800;font-size:38px;font-family:Archivo,sans-serif;color:#132A4C;margin:0">A Steady Point of Reference for Your Care</h1>
+</div>
+</section>
+
+<section style="padding:72px 56px;background:#FFFFFF">
+<div style="max-width:1200px;margin:0 auto">
+<div style="max-width:680px;margin:0 0 40px">
+<h2 style="font-weight:800;font-size:30px;font-family:Archivo,sans-serif;color:#132A4C;margin:0 0 14px">What to Expect</h2>
+<p style="font:400 16px/1.6 'Public Sans',sans-serif;color:#5a6474;margin:0">We know imaging appointments can feel unfamiliar. Here's what sets your visit with aXisPoint apart.</p>
+</div>
+<div class="expect-grid">
+<div class="card" style="background:#F4F6F9;border:1px solid #D3D8E0;border-radius:8px;padding:24px">
+<div style="font-weight:700;font-size:16px;font-family:Archivo,sans-serif;color:#132A4C;margin-bottom:8px">Subspecialist Reads</div>
+<div style="font:400 14px/1.6 'Public Sans',sans-serif;color:#7a8494">Every exam is read by a fellowship-trained subspecialist — the right expert for your specific study.</div>
+</div>
+<div class="card" style="background:#F4F6F9;border:1px solid #D3D8E0;border-radius:8px;padding:24px">
+<div style="font-weight:700;font-size:16px;font-family:Archivo,sans-serif;color:#132A4C;margin-bottom:8px">Minimally Invasive Options</div>
+<div style="font:400 14px/1.6 'Public Sans',sans-serif;color:#7a8494">Through our affiliation with VISA, many conditions can be treated with outpatient, image-guided procedures — often avoiding traditional surgery.</div>
+</div>
+<div class="card" style="background:#F4F6F9;border:1px solid #D3D8E0;border-radius:8px;padding:24px">
+<div style="font-weight:700;font-size:16px;font-family:Archivo,sans-serif;color:#132A4C;margin-bottom:8px">Close to Home</div>
+<div style="font:400 14px/1.6 'Public Sans',sans-serif;color:#7a8494">Based at Grandview Medical Center, so your imaging and follow-up care stay close and coordinated.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding:72px 56px;background:#F4F6F9">
+<div style="max-width:1200px;margin:0 auto">
+<h2 style="font-weight:800;font-size:30px;font-family:Archivo,sans-serif;color:#132A4C;margin:0 0 32px">Where to Find Us</h2>
+<div style="border:1px solid #D3D8E0;border-radius:8px;padding:28px;background:#FFFFFF;max-width:520px">
+<div style="font-weight:700;font-size:18px;font-family:Archivo,sans-serif;color:#132A4C;margin-bottom:8px">Grandview Medical Center</div>
+<div style="font:400 14px/1.6 'Public Sans',sans-serif;color:#7a8494;margin-bottom:14px">aXisPoint Radiology is located on the Grandview Medical Center campus. Parking is available on-site; please allow extra time to park and check in.</div>
+<div style="font:500 13px 'Public Sans',sans-serif;color:#1D6FA5">3570 Grandview Parkway, Suite 100<br>Birmingham, AL 35243</div>
+</div>
+</div>
+</section>
+
+<section style="padding:72px 56px;background:#FFFFFF">
+<div style="max-width:1200px;margin:0 auto">
+<h2 style="font-weight:800;font-size:30px;font-family:Archivo,sans-serif;color:#132A4C;margin:0 0 32px">Preparing for Your Visit</h2>
+<div class="prep-grid">
+<div class="card" style="border:1px solid #D3D8E0;border-radius:8px;padding:24px">
+<div style="font-weight:700;font-size:16px;font-family:Archivo,sans-serif;color:#132A4C;margin-bottom:10px">Before You Arrive</div>
+<ul style="margin:0;padding-left:20px;font:400 14px/1.9 'Public Sans',sans-serif;color:#7a8494">
+<li>Bring a photo ID and your insurance card</li>
+<li>Bring your physician's imaging order, if provided</li>
+<li>Arrive early to allow time for check-in</li>
+<li>Follow any prep instructions provided when scheduling</li>
+</ul>
+</div>
+<div class="card" style="border:1px solid #D3D8E0;border-radius:8px;padding:24px">
+<div style="font-weight:700;font-size:16px;font-family:Archivo,sans-serif;color:#132A4C;margin-bottom:10px">Insurance &amp; Records</div>
+<div style="font:400 14px/1.6 'Public Sans',sans-serif;color:#7a8494">We work with a range of insurance plans. Please contact us ahead of your visit with any questions about coverage, billing, or transferring prior imaging records so your care team has what they need.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding:64px 56px;background:#132A4C">
+<div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px">
+<h2 style="font-weight:800;font-size:26px;font-family:Archivo,sans-serif;color:#fff;margin:0">Have a question before your visit?</h2>
+<a href="axis1-contact.html" class="btn-secondary" style="font:700 15px 'Public Sans',sans-serif;color:#132A4C;background:#fff;padding:16px 28px;border-radius:8px;text-decoration:none;white-space:nowrap">Contact Us →</a>
+</div>
+</section>
+
+<footer style="padding:56px 56px 32px;background:#0B1A30;color:rgba(255,255,255,.7)">
+<div style="max-width:1200px;margin:0 auto">
+<div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px;margin-bottom:40px">
+<div style="max-width:280px">
+<a href="axis1.html" style="display:flex;align-items:center;gap:10px;margin-bottom:14px;text-decoration:none">
+<svg width="26" height="26" viewBox="0 0 100 100"><polygon points="50,4 62.7,37.3 96,50 62.7,62.7 50,96 37.3,62.7 4,50 37.3,37.3" fill="#3FA9DC"></polygon></svg>
+<span style="font-weight:700;font-size:16px;font-family:Archivo,sans-serif;color:#fff">aXispoint Radiology</span>
+</a>
+<p style="font:400 13px/1.6 'Public Sans',sans-serif;color:rgba(255,255,255,.55);margin:0">Diagnostic &amp; interventional radiology, based at Grandview Medical Center, Birmingham, AL.</p>
+</div>
+<div style="display:flex;gap:56px;flex-wrap:wrap">
+<div>
+<div style="font-weight:700;font-size:12px;font-family:'Public Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:14px">Practice</div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 14px 'Public Sans',sans-serif">
+<a href="axis1-about.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">About</a>
+<a href="axis1-physicians.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Physicians</a>
+<a href="https://coaxionradiology.com/careers" target="_blank" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Careers</a>
+</div>
+</div>
+<div>
+<div style="font-weight:700;font-size:12px;font-family:'Public Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:14px">For You</div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 14px 'Public Sans',sans-serif">
+<a href="axis1-patients.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Patients</a>
+<a href="axis1-referring.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Referring Physicians</a>
+<a href="#" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">News</a>
+</div>
+</div>
+<div>
+<div style="font-weight:700;font-size:12px;font-family:'Public Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:14px">Contact</div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 14px 'Public Sans',sans-serif;color:rgba(255,255,255,.75)">
+<div>3570 Grandview Parkway, Suite 100<br>Birmingham, AL 35243</div>
+<div>Phone coming soon</div>
+</div>
+</div>
+</div>
+</div>
+<div style="border-top:1px solid rgba(255,255,255,.12);padding-top:20px;font:400 12px 'Public Sans',sans-serif;color:rgba(255,255,255,.4)">© 2026 aXisPoint Radiology · axispointradiology.com · In affiliation with VISA and Coaxion Radiology</div>
+</div>
+</footer>
+
+</body>
+</html>

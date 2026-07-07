@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Physicians — aXisPoint Radiology</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0B1A30; }
+  .nav-link { transition: color .2s ease; }
+  .nav-link:hover { color: #fff !important; }
+  .nav-link.active { color: #fff !important; }
+  .btn-outline { transition: border-color .2s ease, background .2s ease, color .2s ease; }
+  .btn-outline:hover { border-color: #fff !important; }
+  .btn-fill { transition: background .2s ease, color .2s ease; }
+  .btn-fill:hover { background: #3FA9DC !important; color: #fff !important; }
+  .footer-link { transition: color .2s ease; }
+  .footer-link:hover { color: #fff !important; }
+  .phys-card { transition: background .2s ease, border-color .2s ease; }
+  .phys-card:hover { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.18); }
+  @media (max-width: 900px) {
+    header, nav { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<div style="background:#0B1A30">
+<header style="position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:28px 64px">
+<a href="axis2.html" style="display:flex;align-items:center;gap:14px;text-decoration:none">
+<svg width="46" height="46" viewBox="0 0 100 100" style="flex-shrink:0">
+<defs><linearGradient id="apx2L" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"></stop><stop offset="100%" stop-color="#7FC4EA"></stop></linearGradient><linearGradient id="apx2D" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3FA9DC"></stop><stop offset="100%" stop-color="#1D6FA5"></stop></linearGradient></defs>
+<polygon points="50,50 63.86,44.26 99.0,50.0" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 99.0,50.0 63.86,55.74" fill="url(#apx2D)"></polygon>
+<polygon points="50,50 55.74,36.14 78.28,21.72" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 78.28,21.72 63.86,44.26" fill="url(#apx2D)"></polygon>
+<polygon points="50,50 44.26,36.14 50.0,1.0" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 50.0,1.0 55.74,36.14" fill="url(#apx2D)"></polygon>
+<polygon points="50,50 36.14,44.26 21.72,21.72" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 21.72,21.72 44.26,36.14" fill="url(#apx2D)"></polygon>
+<polygon points="50,50 36.14,55.74 1.0,50.0" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 1.0,50.0 36.14,44.26" fill="url(#apx2D)"></polygon>
+<polygon points="50,50 44.26,63.86 21.72,78.28" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 21.72,78.28 36.14,55.74" fill="url(#apx2D)"></polygon>
+<polygon points="50,50 55.74,63.86 50.0,99.0" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 50.0,99.0 44.26,63.86" fill="url(#apx2D)"></polygon>
+<polygon points="50,50 63.86,55.74 78.28,78.28" fill="url(#apx2L)"></polygon>
+<polygon points="50,50 78.28,78.28 55.74,63.86" fill="url(#apx2D)"></polygon>
+<circle cx="50" cy="50" r="6" fill="#1D6FA5"></circle><circle cx="50" cy="50" r="2.6" fill="#FFFFFF"></circle>
+</svg>
+<span style="font-weight:600;font-size:24px;font-family:Spectral,serif;color:#fff;letter-spacing:.01em">aXispoint <span style="font-weight:400;font-size:12px;letter-spacing:.24em;color:rgba(255,255,255,.6)">RADIOLOGY</span></span>
+</a>
+<nav style="display:flex;align-items:center;gap:30px">
+<a href="axis2-about.html" class="nav-link" style="font:500 14px Manrope,sans-serif;color:rgba(255,255,255,.75);text-decoration:none">About</a>
+<a href="axis2-physicians.html" class="nav-link active" style="font:500 14px Manrope,sans-serif;color:#fff;text-decoration:none">Physicians</a>
+<a href="axis2-services.html" class="nav-link" style="font:500 14px Manrope,sans-serif;color:rgba(255,255,255,.75);text-decoration:none">Services</a>
+<a href="axis2-patients.html" class="nav-link" style="font:500 14px Manrope,sans-serif;color:rgba(255,255,255,.75);text-decoration:none">Patients</a>
+<a href="axis2-referring.html" class="nav-link" style="font:500 14px Manrope,sans-serif;color:rgba(255,255,255,.75);text-decoration:none">Referring Physicians</a>
+<a href="axis2-contact.html" class="btn-outline" style="font:600 14px Manrope,sans-serif;color:#fff;border:1px solid rgba(255,255,255,.4);padding:10px 20px;border-radius:2px;text-decoration:none">Contact</a>
+</nav>
+</header>
+
+<div style="padding:56px 64px;background:#132A4C;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)">
+<div style="max-width:1200px;margin:0 auto">
+<div style="font:500 13px Manrope,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#3FA9DC;margin-bottom:14px">Our Team</div>
+<h1 style="font-weight:600;font-size:42px;font-family:Spectral,serif;color:#fff;margin:0">Meet aXisPoint Radiology</h1>
+</div>
+</div>
+</div>
+
+<section style="padding:100px 64px;background:#0B1A30">
+<div style="max-width:1200px;margin:0 auto">
+<p style="font:400 18px/1.75 Manrope,sans-serif;color:rgba(255,255,255,.75);max-width:760px;margin:0 0 56px">Ten physicians, ten fellowships. Every study that comes through aXisPoint is matched to the subspecialist trained to read it — not simply whoever is next in the queue.</p>
+
+<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:20px">
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">JP</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Dr. Pyko</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Diagnostic Radiology</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">H</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Dr. Hewlett</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Diagnostic Radiology</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">U</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Dr. Underwood</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Diagnostic Radiology</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">V</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Dr. Varma</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Diagnostic Radiology</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">·</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Fellowship-Trained Subspecialist</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Diagnostic Radiology</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">·</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Fellowship-Trained Subspecialist</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Interventional Radiology</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">·</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Fellowship-Trained Subspecialist</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Musculoskeletal Imaging</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">·</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Fellowship-Trained Subspecialist</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Neuroradiology</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+<div class="phys-card" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:2px;padding:24px;text-align:center">
+<div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(160deg,#3FA9DC,#0B1A30);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:20px;font-family:Spectral,serif;margin:0 auto 16px">·</div>
+<div style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff;margin-bottom:4px">Fellowship-Trained Subspecialist</div>
+<div style="font:400 13px Manrope,sans-serif;color:#3FA9DC;margin-bottom:10px">Body Imaging</div>
+<div style="font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.5)">Bio coming soon</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section style="padding:80px 64px;background:#132A4C">
+<div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
+<div>
+<h2 style="font-weight:600;font-size:28px;font-family:Spectral,serif;color:#fff;margin:0 0 16px">A Care Team Behind the Scenes</h2>
+<p style="font:400 16px/1.7 Manrope,sans-serif;color:rgba(255,255,255,.75);margin:0">Our physicians are supported by a dedicated care team, including <strong style="color:#fff">Brenea Black</strong>, helping coordinate scheduling, records, and day-to-day patient needs.</p>
+</div>
+<div>
+<p style="font:400 16px/1.7 Manrope,sans-serif;color:rgba(255,255,255,.75);margin:0">Every exam is routed to the physician whose fellowship training matches the study — CT, MRI, ultrasound, mammography, nuclear medicine, or interventional radiology — so the read is always subspecialty-matched.</p>
+</div>
+</div>
+</section>
+
+<section style="padding:80px 64px;background:#0B1A30;text-align:center">
+<div style="max-width:640px;margin:0 auto">
+<h2 style="font-weight:600;font-size:28px;font-family:Spectral,serif;color:#fff;margin:0 0 20px">Want to Know More About Our Physicians?</h2>
+<a href="axis2-contact.html" class="btn-fill" style="font:600 15px Manrope,sans-serif;color:#0B1A30;background:#fff;padding:16px 28px;border-radius:2px;text-decoration:none;display:inline-block">Contact Us</a>
+</div>
+</section>
+
+<footer style="padding:56px 64px 32px;background:#0B1A30;color:rgba(255,255,255,.7);border-top:1px solid rgba(255,255,255,.08)">
+<div style="max-width:1200px;margin:0 auto">
+<div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px;margin-bottom:40px">
+<div style="max-width:280px">
+<a href="axis2.html" style="display:flex;align-items:center;gap:10px;margin-bottom:14px;text-decoration:none">
+<svg width="24" height="24" viewBox="0 0 100 100"><polygon points="50,4 62.7,37.3 96,50 62.7,62.7 50,96 37.3,62.7 4,50 37.3,37.3" fill="#3FA9DC"></polygon></svg>
+<span style="font-weight:600;font-size:16px;font-family:Spectral,serif;color:#fff">aXispoint Radiology</span>
+</a>
+<p style="font:400 13px/1.6 Manrope,sans-serif;color:rgba(255,255,255,.55);margin:0">Diagnostic &amp; interventional radiology, based at Grandview Medical Center, Birmingham, AL.</p>
+</div>
+<div style="display:flex;gap:56px;flex-wrap:wrap">
+<div>
+<div style="font-weight:600;font-size:12px;font-family:Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:14px">Practice</div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 14px Manrope,sans-serif">
+<a href="axis2-about.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">About</a>
+<a href="axis2-physicians.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Physicians</a>
+<a href="https://coaxionradiology.com/careers" target="_blank" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Careers</a>
+</div>
+</div>
+<div>
+<div style="font-weight:600;font-size:12px;font-family:Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:14px">For You</div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 14px Manrope,sans-serif">
+<a href="axis2-patients.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Patients</a>
+<a href="axis2-referring.html" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">Referring Physicians</a>
+<a href="#" class="footer-link" style="color:rgba(255,255,255,.75);text-decoration:none">News</a>
+</div>
+</div>
+<div>
+<div style="font-weight:600;font-size:12px;font-family:Manrope,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:14px">Contact</div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 14px Manrope,sans-serif;color:rgba(255,255,255,.75)">
+<div>3570 Grandview Parkway, Suite 100<br>Birmingham, AL 35243</div>
+<div>Phone coming soon</div>
+</div>
+</div>
+</div>
+</div>
+<div style="border-top:1px solid rgba(255,255,255,.12);padding-top:20px;font:400 12px Manrope,sans-serif;color:rgba(255,255,255,.4)">© 2026 aXisPoint Radiology · axispointradiology.com · In affiliation with VISA and Coaxion Radiology</div>
+</div>
+</footer>
+
+</body>
+</html>
